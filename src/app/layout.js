@@ -1,9 +1,13 @@
-import { Inter, Roboto } from "next/font/google";
+import localFont from "next/font/local";
 import Script from 'next/script'
 import "./globals.css";
 
-
-const inter = Inter({ subsets: ["latin"] });
+const myFont = localFont({
+  src: [{
+    path:"../../public/fonts/ApfelGrotezk-Regular.woff"
+  }],
+  variable: "--font-ApfelGrotezk"
+})
 
 export const metadata = {
   title: "Beauty Butler",
@@ -13,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body >{children}</body>
+      <body className={myFont.className}>{children}</body>
       <Script src="https://getlaunchlist.com/js/widget.js" />
     </html>
   );

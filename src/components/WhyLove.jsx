@@ -2,32 +2,32 @@ import React from 'react'
 
 const content = [
     {
-        icon: <div><img src="why1.png" alt="list" className=' max-w-full h-auto' /></div>,
+        icon: <div className='w-[200px] h-[200px] lg:w-[250px] lg:h-[250px]'><img src="why1.png" alt="list" className=' max-w-full h-auto' /></div>,
         title: "Effortless Booking",
         text: "Skip the hassle and schedule your beauty sessions with just a few taps – it’s as easy as 1-2-3."
     },
     {
-        icon: <div><img src="why2.png" alt="list" className=' max-w-full h-auto mt-[-6px]' /></div>,
+        icon: <div className='w-[200px] h-[200px] lg:w-[250px] lg:h-[250px]'><img src="why2.png" alt="list" className=' max-w-full h-auto ' /></div>,
         title: "Expert Beauty Pros",
         text: "We’ve partnered with the best salons, spas, and beauty experts to bring you premium services."
     },
     {
-        icon: <div><img src="why3.png" alt="list" className=' max-w-full h-auto mt-[-26px]' /></div>,
+        icon: <div className='w-[200px] h-[200px] lg:w-[250px] lg:h-[250px]'><img src="why3.png" alt="list" className=' max-w-full h-auto' /></div>,
         title: "Pamper Yourself Anywhere",
         text: "Experience top-notch beauty treatments from the comfort of your home, office, or anywhere you choose."
     },
     {
-        icon: <div><img src="why4.png" alt="list" className=' max-w-full h-auto' /></div>,
+        icon: <div className='w-[200px] h-[200px] lg:w-[250px] lg:h-[250px]'><img src="why4.png" alt="list" className=' max-w-full h-auto' /></div>,
         title: "Secure Payments",
         text: "Hassle-free and secure payments for a smooth, stress-free experience."
     },
     {
-        icon: <div><img src="why5.png" alt="list" className=' max-w-full h-auto' /></div>,
+        icon: <div className='w-[200px] h-[200px] lg:w-[250px] lg:h-[250px]'><img src="why5.png" alt="list" className=' max-w-full h-auto' /></div>,
         title: "Exclusive Perks & Deals",
         text: "Enjoy members-only discounts and perks, including access to our loyalty program."
     },
     {
-        icon: <div><img src="why6.png" alt="list" className=' max-w-full h-auto' /></div>,
+        icon: <div className='w-[200px] h-[200px] lg:w-[250px] lg:h-[250px]'><img src="why6.png" alt="list" className=' max-w-full h-auto' /></div>,
         title: "Safety First",
         text: "We’re committed to your safety and we’ll uphold the strictest health and hygiene standards."
     },

@@ -9,16 +9,9 @@ const MeetPage = () => {
         });
     };
   return (
-      <div className='mt-14 bg-[#FFC0FF] flex h-fit md:py-6 py-4 lg:py-0 '>
-          <div className=" hidden md:hidden lg:flex lg:ml-24 md:mx-auto  gap-8">
-              <div className="flex flex-col gap-4">
-                  <img src="/firstRec.png" alt="first" className=' max-w-full h-auto'/>
-                  <img src="/thirdRec.png" alt="third" className=' max-w-full h-auto'/>
-              </div>
-              <div className="flex flex-col gap-4">
-                  <img src="/secondRec.png" alt="second" className=' max-w-full h-auto' />
-                  <img src="/fourRec.png" alt="four" className=' max-w-full h-auto' />
-              </div>
+      <div className='mt-14 bg-[#FFC0FF] flex h-fit md:py-6 py-12 lg:py-0 '>
+          <div className=" hidden md: lg:flex lg:ml-24 ">
+              <img src="/fourmobile.png" alt="four" className='max-w-full h-full' />
           </div>
           <div className="flex flex-col justify-center px-4 lg:px-[132px] md:px-auto ">              
               <p className='lg:font-bold font-bold text-2xl lg:text-5xl '>Meet Your New Beauty Bestie!</p>
