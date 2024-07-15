@@ -1,8 +1,16 @@
+"use client";
+import { useEffect } from 'react';
+import Aos from 'aos';
+import "aos/dist/aos.css"
+
 
 const Banner = () => {
+    useEffect(() => {
+        Aos.init({ duration: 800 })
+    }, [])
     return (
         <div>
-            <div className="hidden md:hidden lg:flex px-[80px] justify-between items-center  mt-[45px] flex-wrap">
+            <div className="hidden md:hidden lg:flex px-[80px] justify-between items-center  mt-[45px] flex-wrap" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                 <div className='flex flex-col ' >
                     <p className='font-apfel text-[64px] text-black text-left text-nowrap leading-none'>Unlock Your Beauty </p>
                     <p className='font-apfel text-[64px] text-black text-left text-nowrap leading-none'>Concierge Experience </p>

@@ -26,7 +26,7 @@ const Footer = () => {
 
                 <button type="submit" className= 'mt-4 font-euclidRegular h-[46px] rounded-[8px] md:rounded-[10px] bg-[#8877D8] text-white grid place-content-center w-full py-4'>Join Our Waitlist</button>
             </form>
-            <p className="font-[400] lg:text-[20px] text-[14px] lg:mt-[40px] mt-[32px] text-center text-white">Follow us for updates and beauty tips!</p>
+            <p className="font-euclidRegular lg:text-[20px] text-[14px] lg:mt-[40px] mt-[32px] text-center text-white">Follow us for updates and beauty tips!</p>
             <div className="mt-[16px] flex items-center lg:gap-8 gap-4 mx-auto">
                 <div className="lg:h-[48px] h-[34px] lg:w-[48px] w-[34px] rounded-xl grid place-content-center bg-[#F6F5FD]">
                     <img src="/twitter.png" alt="twitter" className='object-cover' />
@@ -38,7 +38,7 @@ const Footer = () => {
                     <img src="/arcticons.png" alt="arcticons" className='object-cover' />
                 </div>
             </div>
-            <p className="font-[400] lg:text-[14px] text-[12px] lg:mt-[40px] mt-[67px] text-center text-white">© BeautyButler {new Date().getFullYear()}, All Rights Reserved.</p>
+            <p className="font-euclidRegular lg:text-[14px] text-[12px] lg:mt-[40px] mt-[67px] text-center text-white">© BeautyButler {new Date().getFullYear()}, All Rights Reserved.</p>
 
 
             <div className="absolute right-0 lg:block hidden bottom-6">
