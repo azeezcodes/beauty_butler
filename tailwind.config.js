@@ -8,7 +8,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "custom": ["var(--font-ApfelGrotezk)", "ApfelGrotezk"]
+        apfel: ['var(--font-apfel-grotezk-fett)', 'sans-serif'],
+        euclidMedium: ['var(--font-euclid-circular-medium)', 'sans-serif'],
+        euclidRegular: ['var(--font-euclid-circular-regular)', 'sans-serif'],
       },
     },
   },

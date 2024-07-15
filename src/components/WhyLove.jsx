@@ -37,13 +37,13 @@ const content = [
 const WhyLove = () => {
   return (
     <div className='mt-[72px]'>
-          <p className='text-[36px] lg:text-[48px] font-bold text-center'>Why You'll Love Beauty Butler</p>       
-          <div className='mt-20 lg:mt-12 grid gap-10 place-items-center lg:grid-cols-3 md:grid-cols-2 grid-cols-1 px-20'>
+          <p className='text-[36px] lg:text-[48px] font-apfel text-center'>Why You'll Love Beauty Butler</p>       
+          <div className='mt-20 lg:mt-12 grid gap-10 place-items-center lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:px-20 px-3'>
               {content.map((a, index) => (
                   <div key={index} className='flex flex-col items-center'>
                       <div className='mb-4'>{a.icon}</div>
-                      <p className='text-center font-bold text-2xl'>{a.title}</p>
-                      <p className='text-center font-normal text-[16px] text-[#667085]'>{a.text}</p>
+                      <p className='text-center font-apfel text-2xl'>{a.title}</p>
+                      <p className='text-center font-euclidRegular text-[16px] text-[#667085]'>{a.text}</p>
                   </div>
               ))}
           </div>     

@@ -6,19 +6,26 @@ const Footer = () => {
     const [open, setOpen] = useState(false)
     return (
         <div className='flex flex-col bg-[#5B4F90] lg:pt-[120px] pt-[50px] pb-3 relative justify-center w-full  px-[16px] lg:px-0'>
-            <p className='font-bold text-white text-[28px] lg:text-[40px] text-center'>Be the First to Experience Beauty Butler</p>
+            <p className='font-apfel text-white text-[28px] lg:text-[40px] text-center'>Be the First to Experience Beauty Butler</p>
 
             <form action="https://getlaunchlist.com/s/52IebT"
                 method="POST"
-                className='launchlist-form mt-[30px] items-center justify-center  flex shadow-sm lg:w-1/3 w-full lg:mx-auto lg:h-[55px] h-fit border border-gray-100 rounded-[20px] p-2 bg-[#F6F5FD]'>
-                <input name="name" type="text" placeholder="Enter your name" required className='placeholder:text-slate-400 placeholder:text-[12px] text-base border-0 outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full' />
-                <input name="email" type="email" placeholder="Enter your email" required className='placeholder:text-slate-400 placeholder:text-[12px] text-base border-0 outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full' />
-                <button type="submit" className='cursor-pointer rounded-[8px] md:rounded-[14px] bg-[#8877D8] font-[300] md:text-xs text-[8px]  text-white grid place-content-center px-4 py-2 md:px-10 md:py-3 w-fit lg:w-[240px] text-nowrap '>Join Our Waitlist</button>
-                
-                {/* <input type="email" placeholder='Enter your email address' className='placeholder:text-slate-400 placeholder:text-[12px] text-base border-0 outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full' />
-                <button type='submit' className='cursor-pointer rounded-[8px] md:rounded-[14px] bg-[#8877D8] font-[300] md:text-xs text-[8px]  text-white grid place-content-center px-4 py-2 md:px-10 md:py-3 w-fit lg:w-[240px] text-nowrap '>Join Our Waitlist</button> */}
+                className='launchlist-form mt-[30px] font-euclidRegular items-center justify-center hidden lg:flex md:hidden lg:flex-row md:flex-row lg:w-1/2 w-full lg:mx-auto gap-1 rounded-[20px]'>
+                <input name="name" type="text" placeholder="Enter your name" required className='h-[48px] placeholder:text-slate-400 placeholder:text-[16px] text-base border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[14px]' />
+                <input name="email" type="email" placeholder='Enter your email address' required className='h-[48px] placeholder:text-slate-400 placeholder:text-[16px] text-base border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[14px]' />
+                <button type="submit" className='h-[48px] cursor-pointer rounded-[8px] md:rounded-[14px] bg-[#8877D8] font-[300] md:text-xs text-[8px]  text-white grid place-content-center px-4 py-2 md:px-10 md:py-3 w-[240px] text-nowrap '>Join Our Waitlist</button>
+
             </form>
-            {/* {open && <LinkModal open={open} setOpen={() => setOpen(!open)} />} */}
+            <form action="https://getlaunchlist.com/s/52IebT"
+                method="POST"
+                className='launchlist-form flex flex-col items-center justify-center lg:hidden md:block shadow-sm w-full  p-2 '>
+                <div className="flex w-full gap-1">
+                    <input name="name" type="text" placeholder="Enter your name" required className='font-euclidRegular h-[36px] placeholder:text-slate-400 placeholder:text-[10px] border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[10px]' />
+                    <input name="email" type="email" placeholder='Enter your email address' required className='font-euclidRegular h-[36px] placeholder:text-slate-400 placeholder:text-[10px] text-base border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[10px]' />
+                </div>
+
+                <button type="submit" className= 'mt-4 font-euclidRegular h-[46px] rounded-[8px] md:rounded-[10px] bg-[#8877D8] text-white grid place-content-center w-full py-4'>Join Our Waitlist</button>
+            </form>
             <p className="font-[400] lg:text-[20px] text-[14px] lg:mt-[40px] mt-[32px] text-center text-white">Follow us for updates and beauty tips!</p>
             <div className="mt-[16px] flex items-center lg:gap-8 gap-4 mx-auto">
                 <div className="lg:h-[48px] h-[34px] lg:w-[48px] w-[34px] rounded-xl grid place-content-center bg-[#F6F5FD]">

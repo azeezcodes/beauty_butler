@@ -5,27 +5,27 @@ const GotQuestion = () => {
     const content = [
         {   id:1,
             title: 'What is Beauty Butler?',
-            text: 'Beauty Butler is your personal beauty concierge, offering tailored recommendations and exclusive deals.',
+            text: 'Beauty Butler is an on-demand beauty concierge app that connects you with a network of salons, spas and expert beauty specialists with just a few clicks! We’re on a mission to grant you access to a myriad of premium treatments without leaving the comfort of your home.',
         },
         {
             id: 2,
-            title: 'How do I join the waitlist?',
-            text: 'You can book appointments through our app, receive exclusive deals, and get personalized beauty recommendations.',
+            title: 'How do I join the waitlist??',
+            text: 'Please enter your name and email address, and click the Join Our Waitlist button.',
         },
         {
             id: 3,
-            title: 'When will Beauty Butler launch?',
-            text: 'We connect you with the best salons, spas, and wellness services, ensuring you get top-notch treatment.',
+            title: 'How Does It Work?',
+            text: "You'll gain access to the best salons, spas & beauty specialists in town.With the app, you can search, book & pay for your beauty treatments with ease.You'll even be able to track your Butler's progress as they make their way to you!",
         },
         {
             id: 4,
-            title: 'What is Beauty Butler?',
-            text: 'Beauty Butler is your personal beauty concierge, offering tailored recommendations and exclusive deals.',
+            title: 'When will Beauty Butler launch?',
+            text: "We're launching soon! Join our waitlist to get first dibs on the app when we launch.",
         },
         {
             id: 5,
-            title: 'What is Beauty Butler?',
-            text: 'Beauty Butler is your personal beauty concierge, offering tailored recommendations and exclusive deals.',
+            title: 'Can I list my business on Beauty Butler?',
+            text: <span>Yes! Reach out to us on <span className='text-[#8877D8]'>hello@mybeautybutler.com</span>, we're excited for you to join the Beauty Butler community.</span>,
         },
     ];
 

@@ -8,19 +8,42 @@ const MeetPage = () => {
             behavior: 'smooth',
         });
     };
-  return (
-      <div className='mt-14 bg-[#FFC0FF] flex h-fit md:py-6 py-12 lg:py-0 '>
-          <div className=" hidden md: lg:flex lg:ml-24 ">
-              <img src="/fourmobile.png" alt="four" className='max-w-full h-full' />
-          </div>
-          <div className="flex flex-col justify-center px-4 lg:px-[132px] md:px-auto ">              
-              <p className='lg:font-bold font-bold text-2xl lg:text-5xl '>Meet Your New Beauty Bestie!</p>
-              <p className='font-medium text-xs lg:text-[20px] text-[#475467] lg:mt-6 mt-2 lg:w-[700px] md:w-[300px] w-fit  lg:leading-6 leading-4'>Beauty Butler is your all-in-one beauty concierge, connecting you with the best salons, spas, and wellness services in town. From haircuts to massages, we've got you covered. We’re your personal beauty assistant at your fingertips.</p>
-              <button onClick={handleScroll} className='rounded-[8px] md:rounded-[14px] bg-white text-[#8877D8] font-[400] text-xs md:text-xs lg:text-base border border-[#8877D8] grid place-content-center px-4 py-2 md:px-10 md:py-3 text-nowrap w-fit lg:mt-[40px] mt-5'>Join Our Waitlist</button>
-          </div>
-      
-    </div>
-  )
+    return (
+        <div>
+            <div className="hidden md:hidden lg:flex mt-14 bg-[#FFC0FF] h-fit px-12 ">
+                <div className="flex-initial">
+                    <img src="/fourmobile.png" alt="four" className=''  />
+                </div>
+                <div className="flex-1 grid place-content-center">
+                    <div className="flex flex-col w-[723px] ">
+                        <p className='font-apfel text-5xl text-nowrap '>Meet Your New Beauty Bestie!</p>
+                        <p className='font-euclidRegular text-[20px] text-[#475467] mt-6  leading-6 '>Beauty Butler is your all-in-one beauty concierge app, connecting you with the best salons, spas, and wellness services in town. From makeup to massages, we've got you covered. Join our waitlist and get first dibs on the app when we launch!.</p>
+                        <button onClick={handleScroll} className='rounded-[14px] bg-white text-[#8877D8] font-euclidRegular text-base border border-[#8877D8] grid place-content-center px-10 py-3  text-nowrap w-fit mt-[40px]'>Join Our Waitlist</button>
+                    </div>
+                </div>
+               
+
+            </div>
+            <div className="hidden md:flex lg:hidden  mt-14 bg-[#FFC0FF] px-6 py-16">
+                <div className="flex flex-col ">
+                    <p className='font-apfel text-[40px] text-nowrap '>Meet Your New Beauty Bestie!</p>
+                    <p className='font-euclidRegular text-[18px] text-[#475467] mt-6  leading-6 '>Beauty Butler is your all-in-one beauty concierge app, connecting you with the best salons, spas, and wellness services in town. From makeup to massages, we've got you covered. Join our waitlist and get first dibs on the app when we launch!.</p>
+                    <button onClick={handleScroll} className='rounded-[14px] bg-white text-[#8877D8] font-euclidRegular text-base border border-[#8877D8] grid place-content-center w-[260px] py-3  text-nowrap mt-[40px]'>Join Our Waitlist</button>
+                </div>
+            </div>
+            <div className="flex md:hidden lg:hidden mt-14 bg-[#FFC0FF] px-4 py-14 w-full">
+                <div className="flex flex-col ">
+                    <p className='font-apfel text-[36px] '>Meet Your New Beauty Bestie!</p>
+                   
+
+                    <p className='font-euclidRegular text-[16px] text-[#475467] mt-4  leading-6 '>Beauty Butler is your all-in-one beauty concierge app, connecting you with the best salons, spas, and wellness services in town. From makeup to massages, we've got you covered. Join our waitlist and get first dibs on the app when we launch!.</p>
+                    <button onClick={handleScroll} className='rounded-[14px] bg-white text-[#8877D8] font-euclidRegular text-base border border-[#8877D8] grid place-content-center w-[260px] py-3  text-nowrap mt-[40px]'>Join Our Waitlist</button>
+                </div>
+            </div>
+
+
+        </div>
+    )
 }
 
 export default MeetPage
