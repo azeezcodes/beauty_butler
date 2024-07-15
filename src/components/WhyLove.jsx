@@ -42,7 +42,7 @@ const WhyLove = () => {
               {content.map((a, index) => (
                   <div key={index} className='flex flex-col items-center'>
                       <div className='mb-4'>{a.icon}</div>
-                      <p className='text-center font-apfel text-2xl'>{a.title}</p>
+                      <p className='text-center font-apfel text-2xl mt-[-20px]'>{a.title}</p>
                       <p className='text-center font-euclidRegular text-[16px] text-[#667085]'>{a.text}</p>
                   </div>
               ))}

@@ -22,7 +22,7 @@ const Banner = () => {
                         className='launchlist-form grid grid-flow-col mt-[30px] w-full gap-1 '>
                         <input name="name" type="text" placeholder="Enter your name" required className='h-[48px] placeholder:text-slate-400 placeholder:text-[16px] font-euclidRegular border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[14px]' />
                         <input name="email" type="email" placeholder='Enter your email address' required className='h-[48px] placeholder:text-slate-400 placeholder:text-[16px] font-euclidRegular border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[14px]' />
-                        <button type="submit" className='h-[48px] cursor-pointer rounded-[14px] bg-[#8877D8] font-euclidRegular text-white grid place-content-center px-10 py-3 w-[200px] text-nowrap '>Join Our Waitlist</button>
+                        <button type="submit" className='h-[48px] cursor-pointer rounded-[14px] bg-[#8877D8] font-euclidRegular text-white grid place-content-center px-10 py-3 w-[200px] text-nowrap border border-[#9F92E0]'>Join Our Waitlist</button>
 
                     </form>
                 </div>
@@ -42,7 +42,7 @@ const Banner = () => {
                     className='launchlist-form grid grid-flow-col mt-10 w-full gap-1'>
                     <input name="name" type="text" placeholder="Enter your name" required className='h-[48px] placeholder:text-slate-400 placeholder:text-[16px] font-euclidRegular border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[14px]' />
                     <input name="email" type="email" placeholder='Enter your email address' required className='h-[48px] placeholder:text-slate-400 placeholder:text-[16px] font-euclidRegular border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[14px]' />
-                    <button type="submit" className='h-[48px] cursor-pointer rounded-[14px] bg-[#8877D8] font-euclidRegular text-white grid place-content-center px-10 py-3 w-[200px] text-nowrap '>Join Our Waitlist</button>
+                        <button type="submit" className='h-[48px] cursor-pointer rounded-[14px] bg-[#8877D8] font-euclidRegular text-white grid place-content-center px-10 py-3 w-[200px] text-nowrap   border border-[#9F92E0]'>Join Our Waitlist</button>
                     </form>
                 </div>
 
@@ -63,7 +63,7 @@ const Banner = () => {
                             <input name="email" type="email" placeholder='Enter your email address' required className='h-[48px] placeholder:text-slate-400 placeholder:text-[16px] text-base border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[14px]' />
                         </div>
 
-                        <button type="submit" className='mt-4 h-[48px] rounded-[14px] bg-[#8877D8] font-euclidRegular  text-white grid place-content-center w-full py-4'>Join Our Waitlist</button>
+                        <button type="submit" className='mt-4 h-[48px] rounded-[14px] bg-[#8877D8] font-euclidRegular  text-white grid place-content-center w-full py-4 border border-[#9F92E0]'>Join Our Waitlist</button>
                     </form>
                 </div>
             </div>
