@@ -41,24 +41,24 @@ const GotQuestion = () => {
   return (
       <div className=' flex flex-col lg:flex-row mt-[23px] lg:mt-[45px] md:mt-[36px] bg-[#F6F5FD] max-h-fit gap-3   px-[16px] lg:px-[80px] py-[60px] lg:py-[80px]'>
           <div className='flex-1'>
-              <p className='font-bold text-base lg:text-2xl text-[#8877D8]'>Got Questions?</p>
-              <p className='font-bold text-[28px] lg:text-[48px] text-nowrap text-[#101828]'>We’ve Got Answers!</p>
+              <p className='font-apfel text-base lg:text-2xl text-[#8877D8]'>Got Questions?</p>
+              <p className='font-apfel text-[28px] lg:text-[48px] text-nowrap text-[#101828]'>We’ve Got Answers!</p>
           </div>
 
           <div className='flex flex-col gap-4 lg:gap-8 flex-1 w-full'>
               {content.map((item) => (
                   <div key={item.id} className='border bg-white rounded-2xl p-4 w-full border-[#8877D8] mb-4'>
                       <div className='flex justify-between items-center'>
-                          <p className='font-medium text-base lg:text-2xl'>{item.title}</p>
+                          <p className='font-apfel font-[500] text-[#101828] text-base lg:text-2xl'>{item.title}</p>
                           <div
                               onClick={() => toggleShow(item.id)}
-                              className={`cursor-pointer w-[40px] h-[40px] shrink-0 grow-0 text-[24px] rounded-full flex items-center justify-center  ${!show[item.id] ? 'bg-[#8877D8] text-white' : 'bg-[#DFDEF6] text-[#8877D8]'}`}
+                              className={`cursor-pointer w-[40px] font-euclidMedium h-[40px] shrink-0 grow-0 text-[24px] rounded-full flex items-center justify-center  ${!show[item.id] ? 'bg-[#8877D8] text-white' : 'bg-[#DFDEF6] text-[#8877D8]'}`}
                           >
-                              {!show[item.id] ? '+' : '-'}
+                              {!show[item.id] ? (<img src='/add.svg' alt='plus' />) : '-'}
                           </div>
                       </div>
                       {show[item.id] && (
-                          <p className='text-[#667085] font-normal lg:text-base text-sm mt-2'>
+                          <p className='text-[#667085] font-euclidRegular lg:text-base text-sm mt-2'>
                               {item.text}
                           </p>
                       )}
