@@ -12,8 +12,8 @@ const Banner = () => {
         <div>
             <div className="hidden md:hidden lg:flex px-[80px] justify-between items-center  mt-[45px] flex-wrap" >
                 <div className='flex flex-col ' >
-                    <p className='font-apfel text-[64px] text-black text-left text-nowrap leading-none'>Unlock Your Beauty </p>
-                    <p className='font-apfel text-[64px] text-black text-left text-nowrap leading-none'>Concierge Experience </p>
+                    <p className='font-apfel text-[64px] text-left text-nowrap leading-none text-[#101828]'>Unlock Your Beauty </p>
+                    <p className='font-apfel text-[64px] text-[#101828]text-left text-nowrap leading-none'>Concierge Experience </p>
                     <p className=' font-euclidRegular text-[20px] mt-4  text-[#5f6c80]'>Your Personal Beauty Butler Awaits - Delivered Right To Your Doorstep </p>
 
 

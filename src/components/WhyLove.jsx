@@ -17,8 +17,8 @@ const content = [
         text: "Experience top-notch beauty treatments from the comfort of your home, office, or anywhere you choose."
     },
     {
-        icon: <div className='w-[200px] h-[200px] lg:w-[250px] lg:h-[250px]'><img src="why4.png" alt="list" className=' max-w-full h-auto' /></div>,
-        title: "Secure Payments",
+        icon: <div className='w-[200px] h-[200px] lg:w-[250px] lg:h-[220px]'><img src="why4.png" alt="list" className=' max-w-full h-auto  ' /></div>,
+        title: <span >Secure Payments</span>,
         text: "Hassle-free and secure payments for a smooth, stress-free experience."
     },
     {
@@ -37,7 +37,7 @@ const content = [
 const WhyLove = () => {
   return (
     <div className='mt-[72px]'>
-          <p className='text-[36px] lg:text-[48px] font-apfel text-center'>Why You'll Love Beauty Butler</p>       
+          <p className='text-[36px] lg:text-[48px] font-apfel text-center text-[#101828]'>Why You'll Love Beauty Butler</p>       
           <div className='mt-20 lg:mt-12 grid gap-10 place-items-center lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:px-20 px-3'>
               {content.map((a, index) => (
                   <div key={index} className='flex flex-col items-center'>

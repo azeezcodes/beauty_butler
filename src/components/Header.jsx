@@ -17,7 +17,7 @@ const Header = () => {
         <img src="/logo.png" alt="logo" className="object-contain w-[64px] lg:w-fit h-auto "  />
              
         <div>
-          <button onClick={handleScroll} className='rounded-[10px] md:rounded-[14px]  bg-[#8877D8] font-[300] lg:text-sm text-[8px]  text-white grid place-content-center px-4 lg:px-8 lg:py-3 py-2  border border-[#9F92E0]'>Join Our Waitlist</button>
+          <button onClick={handleScroll} className=' rounded-[10px] md:rounded-[14px]  bg-[#8877D8] font-[300] lg:text-sm text-[8px]  text-white grid place-content-center px-4 lg:px-8 lg:py-3 py-2  border border-[#9F92E0] '>Join Our Waitlist</button>
         </div>
       </div>
     </header>

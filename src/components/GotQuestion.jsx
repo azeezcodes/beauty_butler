@@ -42,7 +42,7 @@ const GotQuestion = () => {
       <div className=' flex flex-col lg:flex-row mt-[23px] lg:mt-[45px] md:mt-[36px] bg-[#F6F5FD] max-h-fit gap-3   px-[16px] lg:px-[80px] py-[60px] lg:py-[80px]'>
           <div className='flex-1'>
               <p className='font-bold text-base lg:text-2xl text-[#8877D8]'>Got Questions?</p>
-              <p className='font-bold text-[28px] lg:text-[48px] text-nowrap'>We’ve Got Answers!</p>
+              <p className='font-bold text-[28px] lg:text-[48px] text-nowrap text-[#101828]'>We’ve Got Answers!</p>
           </div>
 
           <div className='flex flex-col gap-4 lg:gap-8 flex-1 w-full'>
