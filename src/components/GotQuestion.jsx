@@ -52,7 +52,7 @@ const GotQuestion = () => {
                           <p className='font-medium text-base lg:text-2xl'>{item.title}</p>
                           <div
                               onClick={() => toggleShow(item.id)}
-                              className={`cursor-pointer w-11 h-11 shrink-0 grow-0 text-[24px] rounded-full grid place-content-center ${!show[item.id] ? 'bg-[#8877D8] text-white' : 'bg-[#DFDEF6] text-[#8877D8]'}`}
+                              className={`cursor-pointer w-[40px] h-[40px] shrink-0 grow-0 text-[24px] rounded-full flex items-center justify-center  ${!show[item.id] ? 'bg-[#8877D8] text-white' : 'bg-[#DFDEF6] text-[#8877D8]'}`}
                           >
                               {!show[item.id] ? '+' : '-'}
                           </div>

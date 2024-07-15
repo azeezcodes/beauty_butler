@@ -30,8 +30,8 @@ const Banner = () => {
 
             </div>
             <div className="hidden md:flex lg:hidden px-6 flex-col mt-[54px]">
-                <p className='font-apfel text-[48px] text-black text-left text-nowrap leading-none'>Unlock Your Beauty Concierge</p>
-                <p className='font-apfel text-[48px] text-black text-left text-nowrap leading-none'>Experience </p>
+                <p className='font-apfel text-[48px] text-left text-nowrap leading-none text-[#101828]'>Unlock Your Beauty Concierge</p>
+                <p className='font-apfel text-[48px] text-[#101828] text-left text-nowrap leading-none'>Experience </p>
                 <p className=' font-euclidRegular text-[18px] mt-4  text-[#5f6c80]'>Your Personal Beauty Butler Awaits - Delivered Right To Your Doorstep </p>
                 <div className="mx-auto mt-10">
                     <img src="/two_women.png" alt="two_women" className=" w-[520px] h-[520px] object-contain" />
@@ -48,8 +48,8 @@ const Banner = () => {
 
             </div>
             <div className="flex md:hidden lg:hidden  px-4 flex-col mt-[24px]">
-                <p className='font-apfel text-[36px] text-black text-left leading-none'>Unlock Your Beauty </p>
-                <p className='font-apfel text-[36px] text-black text-left leading-none'>Concierge Experience </p>
+                <p className='font-apfel text-[36px] text-[#101828]text-left leading-none'>Unlock Your Beauty </p>
+                <p className='font-apfel text-[36px] text-[#101828]text-left leading-none'>Concierge Experience </p>
                 <p className=' font-euclidRegular text-[12px] mt-4  text-[#5f6c80]'>Your Personal Beauty Butler Awaits - Delivered Right To Your Doorstep </p>
                 <div className="mx-auto mt-6">
                     <img src="/two_women.png" alt="two_women" className=" w-[381px] h-[381px] object-contain" />

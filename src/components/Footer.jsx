@@ -29,13 +29,13 @@ const Footer = () => {
             <p className="font-euclidRegular lg:text-[20px] text-[14px] lg:mt-[40px] mt-[32px] text-center text-white">Follow us for updates and beauty tips!</p>
             <div className="mt-[16px] flex items-center lg:gap-8 gap-4 mx-auto">
                 <div className="lg:h-[48px] h-[34px] lg:w-[48px] w-[34px] rounded-xl grid place-content-center bg-[#F6F5FD]">
-                    <img src="/twitter.png" alt="twitter" className='object-cover' />
+                    <img src="/twitter.svg" alt="twitter" className='object-cover' />
                 </div>
                 <div className="lg:h-[48px] h-[34px] lg:w-[48px] w-[34px] rounded-xl grid place-content-center bg-[#F6F5FD]">
-                    <img src="/instagram.png" alt="instagram" className='object-cover' />
+                    <img src="/instagram.svg" alt="instagram" className='object-cover' />
                 </div>
                 <div className="lg:h-[48px] h-[34px] lg:w-[48px] w-[34px] rounded-xl grid place-content-center bg-[#F6F5FD]">
-                    <img src="/arcticons.png" alt="arcticons" className='object-cover' />
+                    <img src="/arcti.svg" alt="arcticons" className='object-cover' />
                 </div>
             </div>
             <p className="font-euclidRegular lg:text-[14px] text-[12px] lg:mt-[40px] mt-[67px] text-center text-white">© BeautyButler {new Date().getFullYear()}, All Rights Reserved.</p>
