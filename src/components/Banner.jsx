@@ -1,13 +1,9 @@
 "use client";
-import { useEffect } from 'react';
-import Aos from 'aos';
-import "aos/dist/aos.css"
+
 
 
 const Banner = () => {
-    useEffect(() => {
-        Aos.init({ duration: 200 })
-    }, [])
+  
     return (
         <div>
             <div className="hidden md:hidden lg:flex px-[80px] justify-between items-center pt-[100px] mt-[45px] flex-wrap" >

@@ -22,6 +22,11 @@ const apfelGrotezkFett = localFont({
   variable: '--font-apfel-grotezk-fett',
 });
 
+const apfelGrotezkFettMittel = localFont({
+  src: '../../public/fonts/ApfelGrotezk-Mittel.woff',
+  variable: '--font-apfel-grotezk-fett-mittel',
+});
+
 const euclidCircularMedium = localFont({
   src: '../../public/fonts/Euclid Circular A Medium.ttf',
   weight: '500',
@@ -42,7 +47,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${apfelGrotezkFett.variable} ${euclidCircularMedium.variable} ${euclidCircularRegular.variable}`}>
+      <body className={`${apfelGrotezkFett.variable} ${euclidCircularMedium.variable} ${euclidCircularRegular.variable} ${apfelGrotezkFettMittel.variable}`}>
         {children}</body>
       <Script src="https://getlaunchlist.com/js/widget.js" />
     </html>

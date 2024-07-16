@@ -11,6 +11,7 @@ module.exports = {
         apfel: ['var(--font-apfel-grotezk-fett)', 'sans-serif'],
         euclidMedium: ['var(--font-euclid-circular-medium)', 'sans-serif'],
         euclidRegular: ['var(--font-euclid-circular-regular)', 'sans-serif'],
+        apfelGrotezkFettMittel: ['var(--font-apfel-grotezk-fett-mittel)', 'sans-serif'],
       },
     },
   },
