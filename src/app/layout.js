@@ -18,7 +18,7 @@ import "./globals.css";
 
 const apfelGrotezkFett = localFont({
   src: '../../public/fonts/ApfelGrotezk-Fett.woff2',
-  weight: '700', // or 'bold' as per your font weight
+  weight: '700', 
   variable: '--font-apfel-grotezk-fett',
 });
 
