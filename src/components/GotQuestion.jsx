@@ -39,7 +39,7 @@ const GotQuestion = () => {
     };
 
   return (
-      <div className=' flex flex-col lg:flex-row mt-[23px] lg:mt-[45px] md:mt-[36px] bg-[#F6F5FD] max-h-fit gap-3   px-[16px] lg:px-[80px] py-[60px] lg:py-[80px]'>
+      <div className=' flex flex-col lg:flex-row pt-[32px] lg:pt-[45px] md:pt-[36px] bg-[#F6F5FD] max-h-fit gap-3   px-[16px] lg:px-[80px] py-[60px] lg:py-[80px]'>
           <div className='flex-1'>
               <p className='font-apfel text-base lg:text-2xl text-[#8877D8]'>Got Questions?</p>
               <p className='font-apfel text-[28px] lg:text-[48px] text-nowrap text-[#101828]'>We’ve Got Answers!</p>
