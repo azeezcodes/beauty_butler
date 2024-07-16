@@ -33,10 +33,10 @@ const MeetPage = () => {
             </div>
             <div className="flex md:hidden lg:hidden mt-14 bg-[#FFC0FF] px-4 py-14 w-full">
                 <div className="flex flex-col ">
-                    <p className='font-apfel text-[36px] text-[#1D2939]'>Meet Your New Beauty Bestie!</p>
+                    <p className='font-apfel text-[28px] text-[#1D2939]'>Meet Your New Beauty Bestie!</p>
                    
 
-                    <p className='font-euclidRegular text-[16px] text-[#475467] mt-4  leading-6 '>Beauty Butler is your all-in-one beauty concierge app, connecting you with the best salons, spas, and wellness services in town. From makeup to massages, we've got you covered. Join our waitlist and get first dibs on the app when we launch!.</p>
+                    <p className='font-euclidRegular text-[14px] text-[#475467] mt-4 leading-4 '>Beauty Butler is your all-in-one beauty concierge app, connecting you with the best salons, spas, and wellness services in town. From makeup to massages, we've got you covered. Join our waitlist and get first dibs on the app when we launch!.</p>
                     <button onClick={handleScroll} className='rounded-[14px] bg-white text-[#8877D8] font-euclidRegular text-base border border-[#8877D8] grid place-content-center w-[260px] py-3  text-nowrap mt-[40px]'>Join Our Waitlist</button>
                 </div>
             </div>
