@@ -50,7 +50,7 @@ const GotQuestion = () => {
                             <p className='font-apfel font-[500] text-[#101828] text-base lg:text-2xl'>{item.title}</p>
                             <div
                                 onClick={() => toggleShow(item.id)}
-                                className={`cursor-pointer w-[40px] font-euclidMedium h-[40px] shrink-0 grow-0 text-[24px] rounded-full flex items-center justify-center ${openItemId !== item.id ? 'bg-[#8877D8] text-white' : 'bg-[#DFDEF6] text-[#8877D8]'}`}
+                                className={`cursor-pointer w-[40px] font-euclidRegular h-[40px] shrink-0 grow-0 text-[24px] rounded-full flex items-center justify-center ${openItemId !== item.id ? 'bg-[#8877D8] text-white' : 'bg-[#DFDEF6] text-[#8877D8]'}`}
                             >
                                 {openItemId !== item.id ? (<img src='/add.svg' alt='plus' />) : '-'}
                             </div>
