@@ -1,5 +1,7 @@
 "use client"
 import React, { useState } from 'react'
+import Link from 'next/link';
+
 
 const Footer = () => {
     const [open, setOpen] = useState(false)
@@ -27,12 +29,17 @@ const Footer = () => {
             </form>
             <p className="font-euclidRegular lg:text-[20px] text-[14px] lg:mt-[40px] mt-[32px] text-center text-white">Follow us for updates and beauty tips!</p>
             <div className="mt-[16px] flex items-center lg:gap-8 gap-4 mx-auto">
-                <div className="lg:h-[48px] h-[34px] lg:w-[48px] w-[34px] rounded-xl grid place-content-center bg-[#F6F5FD]">
-                    <img src="/twitter.svg" alt="twitter" className='h-[18px] lg:h-full' />
-                </div>
-                <div className="lg:h-[48px] h-[34px] lg:w-[48px] w-[34px] rounded-xl grid place-content-center bg-[#F6F5FD]">
-                    <img src="/instagram.svg" alt="instagram" className='h-[18px] lg:h-full' />
-                </div>
+                <Link target="_blank" href="https://x.com/mybeautybutler">
+                    <div className="lg:h-[48px] h-[34px] lg:w-[48px] w-[34px] rounded-xl grid place-content-center bg-[#F6F5FD]">
+                        <img src="/twitter.svg" alt="twitter" className='h-[18px] lg:h-full' />
+                    </div>
+                </Link>
+                <Link target="_blank" href="https://www.instagram.com/mybeautybutler?igsh=YzB4bjc2OWhyc2o4">
+                    <div className="lg:h-[48px] h-[34px] lg:w-[48px] w-[34px] rounded-xl grid place-content-center bg-[#F6F5FD]">
+                        <img src="/instagram.svg" alt="instagram" className='h-[18px] lg:h-full' />
+                    </div>
+                </Link>
+               
                 <div className="lg:h-[48px] h-[34px] lg:w-[48px] w-[34px] rounded-xl grid place-content-center bg-[#F6F5FD]">
                     <img src="/arcti.svg" alt="arcticons" className='h-[18px] lg:h-full' />
                 </div>
