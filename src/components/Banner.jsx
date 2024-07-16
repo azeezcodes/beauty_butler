@@ -49,7 +49,7 @@ const Banner = () => {
             </div>
             <div className="flex md:hidden lg:hidden  px-4 flex-col mt-[24px] pt-[80px]">
                 <p className='font-apfel text-[32px] text-[#101828] text-left leading-none'>Unlock Your Beauty </p>
-                <p className='font-apfel text-[32px] text-[#101828] text-left leading-none'>Concierge Experience </p>
+                <p className='font-apfel text-[32px] text-[#101828] text-left leading-none mt-2'>Concierge Experience </p>
                 <p className=' font-euclidRegular text-[12px] mt-4  text-[#475467]'>Your Personal Beauty Butler Awaits - Delivered Right To Your Doorstep </p>
                 <div className="mx-auto mt-6">
                     <img src="/hero.svg" alt="two_women" className=" w-[381px] h-[381px] object-contain" />

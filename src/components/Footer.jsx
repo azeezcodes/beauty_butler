@@ -5,7 +5,7 @@ const Footer = () => {
     const [open, setOpen] = useState(false)
     return (
         <div className='flex flex-col bg-[#5B4F90] lg:pt-[120px] pt-[50px] pb-3 relative justify-center w-full  px-[16px] lg:px-0'>
-            <p className='font-apfel text-white text-[28px] lg:text-[40px] text-center'>Be the First to Experience Beauty Butler</p>
+            <p className='font-apfel text-white text-[28px] lg:text-[40px] text-center'>Get exclusive access to your Beauty Butler</p>
 
             <form action="https://getlaunchlist.com/s/52IebT"
                 method="POST"
