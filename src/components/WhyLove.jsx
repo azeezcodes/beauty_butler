@@ -37,7 +37,7 @@ const content = [
 const WhyLove = () => {
   return (
     <div className='pt-[72px] pb-[80px] bg-white px-3 '>
-          <p className='text-[34px] lg:text-[48px] font-apfel text-center text-[#101828]'>Why You'll Love Beauty Butler</p>       
+          <p className='text-[28px] lg:text-[48px] font-apfel text-center text-[#101828]'>Why You'll Love Beauty Butler</p>       
           <div className='mt-20 lg:mt-12 grid gap-10 place-items-center lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:px-20 px-3'>
               {content.map((a, index) => (
                   <div key={index} className='flex flex-col items-center w-fit'>
