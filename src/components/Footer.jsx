@@ -23,7 +23,7 @@ const Footer = () => {
                     <input name="email" type="email" placeholder='Enter your email address' required className='font-euclidRegular h-[36px] placeholder:text-slate-400 placeholder:text-[10px] text-base border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[10px]' />
                 </div>
 
-                <button type="submit" className= 'mt-4 font-euclidRegular h-[46px] rounded-[8px] md:rounded-[10px] bg-[#8877D8] text-white grid place-content-center w-full py-4  border border-[#8877D8]'>Join Our Waitlist</button>
+                <button type="submit" className= 'mt-4 font-euclidRegular text-[14px] h-[46px] rounded-[8px] md:rounded-[10px] bg-[#8877D8] text-white grid place-content-center w-full py-4  border border-[#8877D8]'>Join Our Waitlist</button>
             </form>
             <p className="font-euclidRegular lg:text-[20px] text-[14px] lg:mt-[40px] mt-[32px] text-center text-white">Follow us for updates and beauty tips!</p>
             <div className="mt-[16px] flex items-center lg:gap-8 gap-4 mx-auto">

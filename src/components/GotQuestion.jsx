@@ -9,7 +9,7 @@ const GotQuestion = () => {
         },
         {
             id: 2,
-            title: 'How do I join the waitlist??',
+            title: 'How do I join the waitlist?',
             text: 'Please enter your name and email address, and click the Join Our Waitlist button.',
         },
         {
