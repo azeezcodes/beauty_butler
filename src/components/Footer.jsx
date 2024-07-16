@@ -21,8 +21,8 @@ const Footer = () => {
                 method="POST"
                 className='launchlist-form flex flex-col items-center justify-center lg:hidden md:block shadow-sm w-full  p-2 '>
                 <div className="flex w-full gap-1">
-                    <input name="name" type="text" placeholder="Enter your name" required className='font-euclidRegular h-[36px] placeholder:text-slate-400 placeholder:text-[10px] border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[10px]' />
-                    <input name="email" type="email" placeholder='Enter your email address' required className='font-euclidRegular h-[36px] placeholder:text-slate-400 placeholder:text-[10px] text-base border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[10px]' />
+                    <input name="name" type="text" placeholder="Enter your name" required className='font-euclidRegular h-[36px] placeholder:text-slate-400 text-[14px] border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[10px]' />
+                    <input name="email" type="email" placeholder='Enter your email address' required className='font-euclidRegular h-[36px] placeholder:text-slate-400 text-[14px] text-base border border-[#F2F4F7] outline-none focus:ring-0 ring-0 focus:ring-transparent px-2 w-full rounded-[10px]' />
                 </div>
 
                 <button type="submit" className= 'mt-4 font-euclidMedium text-[14px] h-[46px] rounded-[8px] md:rounded-[10px] bg-[#8877D8] text-white grid place-content-center w-full py-4  border border-[#8877D8]'>Join Our Waitlist</button>
