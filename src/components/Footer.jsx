@@ -39,10 +39,11 @@ const Footer = () => {
                         <img src="/instagram.svg" alt="instagram" className='h-[18px] lg:h-full' />
                     </div>
                 </Link>
-               
+                <Link target="_blank" href="https://open.substack.com/pub/beautybutler/p/coming-soon?r=46sczw&utm_campaign=post&utm_medium=web">
                 <div className="lg:h-[48px] h-[34px] lg:w-[48px] w-[34px] rounded-xl grid place-content-center bg-[#F6F5FD]">
                     <img src="/arcti.svg" alt="arcticons" className='h-[18px] lg:h-full' />
-                </div>
+                    </div>
+                </Link>
             </div>
             <p className="font-euclidRegular lg:text-[14px] text-[12px] lg:mt-[40px] mt-[67px] text-center text-white">© BeautyButler {new Date().getFullYear()}, All Rights Reserved.</p>
 
