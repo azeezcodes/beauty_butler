@@ -1,4 +1,6 @@
 "use client"
+import Image from "next/image";
+
 
 const MeetPage = () => {
     function handleScroll() {
@@ -12,6 +14,7 @@ const MeetPage = () => {
         <div>
             <div className="hidden md:hidden lg:flex mt-14 bg-[#FFC0FF] h-fit px-12 ">
                 <div className="flex-initial">
+                 
                     <img src="/four.svg" alt="four" className=''  />
                 </div>
                 <div className="flex-1 grid place-content-center">

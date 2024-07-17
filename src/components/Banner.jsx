@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 
 
 const Banner = () => {
@@ -30,7 +32,12 @@ const Banner = () => {
                 <p className='font-apfel text-[48px] text-[#101828] text-left text-nowrap leading-none'>Experience </p>
                 <p className=' font-euclidRegular text-[18px] mt-4  text-[#475467]'>Your Personal Beauty Butler Awaits - Delivered Right To Your Doorstep </p>
                 <div className="mx-auto mt-10">
-                    <img src="/hero.svg" alt="two_women" className=" w-[520px] h-[520px] object-contain" />
+                    <Image src="/hero.svg"
+                        alt="two_women"
+                        width={520}
+                        height={520}
+                        priority />
+                    {/* <img src="/hero.svg" alt="two_women" className=" w-[520px] h-[520px] object-contain" /> */}
                 </div>
                 <div className="mx-auto" >
                 <form action="https://getlaunchlist.com/s/52IebT"
