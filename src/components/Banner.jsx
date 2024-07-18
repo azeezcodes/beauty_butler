@@ -24,18 +24,17 @@ const Banner = () => {
 
                     </form>
                 </div>
-                <img src="/hero.png" alt="two_women" className="md:mt-6"  />
+                <img src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1721313822/beautybut-hero_ay1nso.svg" alt="two_women_large" className="md:mt-6"  />
 
             </div>
             <div className="hidden md:flex lg:hidden px-6 flex-col mt-[54px] pt-[100px]">
                 <p className='font-apfel text-[48px] text-left text-nowrap leading-none text-[#101828]'>Unlock Your Beauty Concierge</p>
                 <p className='font-apfel text-[48px] text-[#101828] text-left text-nowrap leading-none'>Experience </p>
                 <p className=' font-euclidRegular text-[18px] mt-4  text-[#475467]'>Your Personal Beauty Butler Awaits - Delivered Right To Your Doorstep </p>
-                <div className="mx-auto mt-10">
-                    <Image src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1721313822/beautybut-hero_ay1nso.svg"
+                <div className="mx-auto mt-10 w-[520px] h-[520px]">
+                    <img src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1721313822/beautybut-hero_ay1nso.svg"
                         alt="two_women_style"
-                        width={520}
-                        height={520}
+                       
                          />
                 </div>
                 <div className="mx-auto" >
@@ -54,7 +53,7 @@ const Banner = () => {
                 <p className='font-apfel text-[40px] text-[#101828] text-left leading-none mt-2'>Concierge Experience </p>
                 <p className=' font-euclidRegular text-[18px] mt-4  text-[#475467]'>Your Personal Beauty Butler Awaits - Delivered Right To Your Doorstep </p>
                 <div className="mx-auto mt-6">
-                    <img src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1721313822/beautybut-hero_ay1nso.svg" alt="two_women" className=" w-[381px] h-[381px] object-contain" />
+                    <img src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1721313822/beautybut-hero_ay1nso.svg" alt="two_women_medium" className=" w-[381px] h-[381px] object-contain" />
                 </div>
                 <div className=" mt-6">
                     <form action="https://getlaunchlist.com/s/52IebT"
