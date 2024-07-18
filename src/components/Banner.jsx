@@ -32,7 +32,7 @@ const Banner = () => {
                 <p className='font-apfel text-[48px] text-[#101828] text-left text-nowrap leading-none'>Experience </p>
                 <p className=' font-euclidRegular text-[18px] mt-4  text-[#475467]'>Your Personal Beauty Butler Awaits - Delivered Right To Your Doorstep </p>
                 <div className="mx-auto mt-10">
-                    <Image src="/hero.svg"
+                    <Image src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1721313822/beautybut-hero_ay1nso.svg"
                         alt="two_women"
                         width={520}
                         height={520}
