@@ -16,7 +16,7 @@ const GotQuestion = () => {
         {
             id: 3,
             title: 'How Does It Work?',
-            text: "You'll gain access to the best salons, spas & beauty specialists in town.With the app, you can search, book & pay for your beauty treatments with ease.You'll even be able to track your Butler's progress as they make their way to you!",
+            text: "You'll gain access to the best salons, spas & beauty specialists in town. With the app, you can search, book & pay for your beauty treatments with ease. You'll even be able to track your Butler's progress as they make their way to you!",
         },
         {
             id: 4,
