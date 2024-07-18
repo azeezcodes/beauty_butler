@@ -33,7 +33,7 @@ const Banner = () => {
                 <p className=' font-euclidRegular text-[18px] mt-4  text-[#475467]'>Your Personal Beauty Butler Awaits - Delivered Right To Your Doorstep </p>
                 <div className="mx-auto mt-10">
                     <Image src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1721313822/beautybut-hero_ay1nso.svg"
-                        alt="two_women"
+                        alt="two_women_style"
                         width={520}
                         height={520}
                          />
@@ -54,7 +54,7 @@ const Banner = () => {
                 <p className='font-apfel text-[40px] text-[#101828] text-left leading-none mt-2'>Concierge Experience </p>
                 <p className=' font-euclidRegular text-[18px] mt-4  text-[#475467]'>Your Personal Beauty Butler Awaits - Delivered Right To Your Doorstep </p>
                 <div className="mx-auto mt-6">
-                    <img src="/hero.svg" alt="two_women" className=" w-[381px] h-[381px] object-contain" />
+                    <img src="/https://res.cloudinary.com/dt9pwfpi5/image/upload/v1721313822/beautybut-hero_ay1nso.svg" alt="two_women" className=" w-[381px] h-[381px] object-contain" />
                 </div>
                 <div className=" mt-6">
                     <form action="https://getlaunchlist.com/s/52IebT"
