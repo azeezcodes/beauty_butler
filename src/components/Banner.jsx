@@ -36,8 +36,7 @@ const Banner = () => {
                         alt="two_women"
                         width={520}
                         height={520}
-                        priority />
-                    {/* <img src="/hero.svg" alt="two_women" className=" w-[520px] h-[520px] object-contain" /> */}
+                         />
                 </div>
                 <div className="mx-auto" >
                 <form action="https://getlaunchlist.com/s/52IebT"
