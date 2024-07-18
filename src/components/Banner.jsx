@@ -24,7 +24,7 @@ const Banner = () => {
 
                     </form>
                 </div>
-                <img src="/hero.svg" alt="two_women" className="md:mt-6"  />
+                <img src="/hero.png" alt="two_women" className="md:mt-6"  />
 
             </div>
             <div className="hidden md:flex lg:hidden px-6 flex-col mt-[54px] pt-[100px]">

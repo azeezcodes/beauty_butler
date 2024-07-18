@@ -15,7 +15,7 @@ const MeetPage = () => {
             <div className="hidden md:hidden lg:flex mt-14 bg-[#FFC0FF] h-fit px-12 ">
                 <div className="flex-initial">
                  
-                    <img src="/four.svg" alt="four" className=''  />
+                    <img src="/four.png" alt="four" className=''  />
                 </div>
                 <div className="flex-1 grid place-content-center">
                     <div className="flex flex-col w-[723px] ">
